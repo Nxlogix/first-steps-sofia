@@ -18,7 +18,7 @@ function CircuitMark() {
     );
 }
 
-
+return (
 <main className="min-h-screen overflow-hidden bg-[#f5f7f3] text-[#123044]">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
                 <header className="flex items-center justify-between border-b border-[#123044]/15 py-5">
@@ -126,6 +126,7 @@ function CircuitMark() {
                 </section>
             </div>
         </main>
+);
 }
 
 export default Aboutpage;
